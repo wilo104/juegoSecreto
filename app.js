@@ -47,8 +47,6 @@ function limpiarCaja(){
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
     //si el número generado está incluido en la lista 
-    console.log(numeroGenerado);
-     console.log(listaNumerosSorteados);
      //si ya sorteamos todos los números 
      if(listaNumerosSorteados.length== numeroMaximo){
         asignarTextoElemento('p','ya se sortearon todos los numeros posibles')
